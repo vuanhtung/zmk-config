@@ -1,5 +1,6 @@
+Hardware: https://github.com/vuanhtung/xiao_256
 
-Hardware overview: https://wiki.seeedstudio.com/XIAO_BLE/#hardware-overview
+Xiao BLE overview: https://wiki.seeedstudio.com/XIAO_BLE/#hardware-overview
 
 New shield guilde: https://zmk.dev/docs/development/new-shield
 
