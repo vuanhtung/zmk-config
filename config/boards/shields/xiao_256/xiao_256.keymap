@@ -25,8 +25,8 @@
     fn1_layer {
       bindings = <
         &kp GRAVE   &kp F1      &kp F2      &kp F3      &kp F4      &kp F5      &kp F6      &kp F7      &kp F8      &kp F9      &kp F10     &kp F11
-        &trans      &trans      &trans      &trans      &trans      &trans      &kp PSCRN   &kp SLCK    &kp PAUSE_BREAK &trans  &trans      &kp F12
-        &trans      &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &kp EQUAL   &kp INSERT  &kp HOME    &kp PG_UP   &trans      &trans      &trans
+        &trans      &trans      &kp UP      &trans      &trans      &trans      &kp PSCRN   &kp SLCK    &kp PAUSE_BREAK &trans  &trans      &kp F12
+        &trans      &kp LEFT    &kp DOWN    &kp RIGHT   &trans      &kp EQUAL   &kp INSERT  &kp HOME    &kp PG_UP   &trans      &trans      &trans
         &trans      &trans      &trans      &kp LBKT    &kp RBKT    &trans      &kp DEL     &kp END     &kp PG_DN   &trans      &trans      &trans
         &trans      &trans      &trans      &mo FN2     &trans      &kp RETURN  &kp RETURN  &trans      &mo FN2     &trans      &trans      &trans 
       >;
@@ -36,7 +36,7 @@
       bindings = <
         &bt BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &none    &none       &none       &none       &none       &none       &none       &none
         &out OUT_BLE &none      &none       &none       &none       &none       &none       &none       &none       &none       &none       &none
-        &out OUT_USB &none       &none       &none       &none       &none       &none       &none       &none       &none       &none       &none
+        &out OUT_USB &none      &none       &none       &none       &none       &none       &none       &none       &none       &none       &none
         &none       &none       &none       &none       &none       &none       &none       &none       &none       &none       &none       &none
         &bootloader &none       &none       &none       &none       &none       &none       &none       &none       &none       &none       &bootloader 
       >;
