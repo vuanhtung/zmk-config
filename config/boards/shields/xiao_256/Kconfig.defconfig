@@ -1,7 +1,7 @@
 if SHIELD_XIAO_256_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "xiao256"
+    default "xiao256_edward"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
