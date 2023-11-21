@@ -17,3 +17,5 @@ include:
     shield: xiao_256_left
   - board: seeeduino_xiao_ble
     shield: xiao_256_right
+  - board: seeeduino_xiao_ble
+    shield: settings_reset
