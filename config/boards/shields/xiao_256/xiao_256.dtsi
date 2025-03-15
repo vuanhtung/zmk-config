@@ -1,9 +1,10 @@
 #include <dt-bindings/zmk/matrix_transform.h>
+#include "xiao_256-layouts.dtsi"
 
 / {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,matrix_transform = &default_transform;
+        zmk,physical-layout = &physical_layout0;
     };
 
     default_transform: keymap_transform_0 {
